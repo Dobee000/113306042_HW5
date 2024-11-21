@@ -1,0 +1,304 @@
+/* General Reset */
+body {
+    margin: 0;
+    background-color: #eeede1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    max-width: 900px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    height: 1200px;
+}
+
+.left-panel {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+}
+
+.photo-panel {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.photo-panel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-content {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-header {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+.about-me {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.contact-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.nccu-icon img {
+    width: 100px;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.right-panel {
+    width: 540px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul.homework-list li {
+    margin-bottom: 15px;
+}
+
+ul.homework-list a {
+    text-decoration: none; /* 移除底線 */
+    color: #6c757d; /* 預設為灰色 */
+    transition: color 0.3s ease;
+}
+
+ul.homework-list a:hover {
+    color: #0056b3; /* 滑鼠懸停時變成深藍色 */
+}
+
+.year {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.description {
+    line-height: 1.8;
+}
+
+.education-spacing {
+    height: 20px;
+}
+
+.homework-spacing {
+    height: 30px;
+}
+
+.music-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.music-item {
+    text-align: center;
+    flex: 1;
+}
+
+.music-list img {
+    width: auto;
+    height: 56px;
+    display: block;
+    margin: 0 auto;
+}
+
+.music-item p {
+    margin-top: 5px;
+    font-size: 0.8em;
+}
+
+.note {
+    font-size: 12px;
+    color: #555;
+    line-height: 1.8;
+}
+/* General Reset */
+body {
+    margin: 0;
+    background-color: #eeede1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    max-width: 900px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    height: 1200px;
+}
+
+.left-panel {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+}
+
+.photo-panel {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.photo-panel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-content {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-header {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+.about-me {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.contact-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.nccu-icon img {
+    width: 100px;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.right-panel {
+    width: 540px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul.homework-list li {
+    margin-bottom: 15px;
+}
+
+ul.homework-list a {
+    text-decoration: none; /* 移除底線 */
+    color: #6c757d; /* 預設為灰色 */
+    transition: color 0.3s ease;
+}
+
+ul.homework-list a:hover {
+    color: #0056b3; /* 滑鼠懸停時變成深藍色 */
+}
+
+.year {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.description {
+    line-height: 1.8;
+}
+
+.education-spacing {
+    height: 20px;
+}
+
+.homework-spacing {
+    height: 30px;
+}
+
+.music-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.music-item {
+    text-align: center;
+    flex: 1;
+}
+
+.music-list img {
+    width: auto;
+    height: 56px;
+    display: block;
+    margin: 0 auto;
+}
+
+.music-item p {
+    margin-top: 5px;
+    font-size: 0.8em;
+}
+
+.note {
+    font-size: 12px;
+    color: #555;
+    line-height: 1.8;
+}
